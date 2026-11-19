@@ -32,9 +32,11 @@ export const metadata: Metadata = {
   keywords: [
     "Novanode",
     "agence marketing Tunis",
+    "agence marketing Tunisie",
     "studio créatif Tunisie",
     "marketing digital Tunisie",
     "création de marque Tunis",
+    "agence créative Tunis",
     "technologie marketing Tunisie",
   ],
   authors: [{ name: site.founder, url: site.url }],
@@ -106,6 +108,7 @@ const jsonLd = {
         addressLocality: site.city,
         addressCountry: site.countryCode,
       },
+      email: `mailto:${site.email}`,
       knowsAbout: ["Marketing", "Création", "Technologie"],
     },
     {
